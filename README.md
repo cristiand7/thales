@@ -3,7 +3,7 @@
 Application developed with angular and .net core
 
 - .Net Core project located in the 'Backend.Thales' folder
-- Net Core project located in the 'Backend.Thales' folder
+- Angular project with bootstrap located in the 'Frontend-Thales' folder 
 
 Steps to run the application
 
