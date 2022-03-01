@@ -1,21 +1,19 @@
-# thales
+# Thales
 
-Aplicación realizada con angular y .net core
+Application developed with angular and .net core
 
-- Proyecto .Net Core ubicado en la carperta 'Backend.Thales'
-- Proyecto Agular ubicado en la carperta 'Frontend-Thales'
+- .Net Core project located in the 'Backend.Thales' folder
+- Net Core project located in the 'Backend.Thales' folder
 
-Pasos para la ejecucion de la aplicación
+Steps to run the application
 
-1) Ejecutar el siguiente comando en la capeta "Backend.Thales\backend.tales"
+1) Run the following command in the folder "Backend.Thales\backend.tales"
 > dotnet run
 	
-Nota: el servicio se debe exponer en la url https://localhost:5001 
+Note: the service must be exposed at the url https://localhost:5001
 
-2) Poner en ejecución el proyecto 'Frontend-Thales' para ello: 
-
-- Ubicamos dentro de la carpeta 'Frontend-Thales' y ejecutamos el siguiente comando para descargar los modulos y dependencias de angular
+2) Go to the 'Frontend-Thales' folder and execute the following command to download the angular modules and dependencies
 > npm install
 
-- Procedemos a ejecutar el proyecto web con el siguiente comando:
+3) We proceed to execute the web project with the following command:
 > ng serve -o 

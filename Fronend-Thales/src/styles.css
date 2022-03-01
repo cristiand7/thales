@@ -1,1 +1,245 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.conftitle {
+  font-family: 'Bree Serif', serif;
+}
+
+h3{
+color:#000f00;
+font-family: helvetica neue, Arial, sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-language-override: normal;
+font-optical-sizing: auto;
+font-size: 20px;
+margin-left: 20px
+}
+.mytable{
+    width: 100%;
+  }
+  body{
+    background-color:  #f6f6f6;
+  }
+.content{
+  background-color: white;
+  border-color: rgb(200, 200, 200);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px; 
+  height: 50%;
+  padding: 15px;
+  }
+  .correcto{
+    color: rgb(119, 204, 109);
+border-bottom-color: rgb(238, 238, 238);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+font-family: helvetica neue, Arial, sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-language-override: normal;
+font-optical-sizing: auto;
+font-size: 18px;
+font-size-adjust: none;
+font-stretch: 100%;
+font-style: normal;
+font-variant: normal;
+font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-variation-settings: normal;
+font-weight: 400;
+line-height: 21.3167px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+outline-color: rgb(255, 255, 255);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+vertical-align: baseline;
+width: 250px;
+  }
+  .menu{
+    background-color: rgb(247, 247, 247);
+    width: 60%;
+    height: 40px;
+    border: 1px solid #c3c3c3;
+    padding-left: 40%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;    
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+   
+   margin-bottom: 10px;
+  }
+
+.btnGuardar{
+
+   display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  
+    /* create a small space when buttons wrap on 2 lines */
+    margin-right: 3px;
+  
+    /* invisible border (will be colored on hover/focus) */
+    border: solid 1px transparent;
+    border-radius: 4px;
+  
+    /* size comes from text & padding (no width/height) */
+    padding: 0.5em 1em;
+  
+    /* make sure colors have enough contrast! */
+    color: #ffffff;
+    background-color:  #1e7c17;
+
+    font-size: 12pt;
+    
+}
+.btnGuardar:hover {
+ 
+    color:   #1e7c17 ;
+    border-color: currentColor;
+    background-color: white;
+    font-weight: bold;
+  }
+form {
+    overflow: hidden;
+    padding-left: 35%;
+}
+ 
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+    
+    margin-bottom: 5px;
+    margin-Top: 12px;
+    
+}
+ 
+input,textarea,select,.list,.myselection {
+    float: left;
+    width: calc(60% - 150px);    
+}
+ 
+button[type='submit'] {
+    margin-left: 20%;
+    margin-top: 10px;
+    width: calc(30% - 100px);
+}
+
+.btnCategorias{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  
+    /* create a small space when buttons wrap on 2 lines */
+    margin-right: 3px;
+  
+    /* invisible border (will be colored on hover/focus) */
+    border: solid 1px transparent;
+    border-radius: 4px;
+  
+    /* size comes from text & padding (no width/height) */
+    padding: 0.5em 1em;
+  
+    /* make sure colors have enough contrast! */
+    color: #ffffff;
+    background-color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+.btnCategorias:hover{
+
+
+  /* make sure colors have enough contrast! */
+  color:  rgb(100, 100, 100);
+  background-color:#ffffff;
+  font-size: 12px;
+}
+.btnEliminar{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin-right: 3px;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent;
+  border-radius: 4px;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: rgb(184, 48, 48);
+
+  font-size: 12px;
+}
+.btnEliminar:hover {
+  color:  rgb(184, 48, 48);
+  border-color: currentColor;
+  background-color: white;
+}
+.buscador{
+  width: 90%;
+  margin-left: 20px;
+  overflow:auto;
+}
+.buscador>button{
+  width: 99px;
+  margin-top: 0px;
+  margin-left:30px;
+
+}
+
+.buscador > input {
+  margin-top:10px;
+  width: 200px;
+}
+.buscador > label {
+  margin-left:20px;
+  width: 40px;
+}
+
+.btnBlanco{
+  color:  white;
+}
