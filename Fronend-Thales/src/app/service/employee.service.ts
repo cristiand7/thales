@@ -9,7 +9,7 @@ import { ResponseBase } from '../model/reponse-base';
 })
 export class EmployeeService {
 
-  private URL_EMPLOYEES: string='https://localhost:44378/api/v1/employees';  
+  private URL_EMPLOYEES: string='https://localhost:7236/api/v1/employees';  
 
   constructor(private http: HttpClient) { }
 

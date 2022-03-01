@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'Fronend-Thales';
   employees: Employee[] = [];
   id: string;
+  showError: boolean = false;
   constructor(private service: EmployeeService){
   }
 
@@ -18,9 +19,11 @@ export class AppComponent {
     this.service.findAll().subscribe(data => {
       if (data.code==200) {
         this.employees=data.data;
-      }     
+      }  else 
+      this.showError=true;   
     },
     error => {      
+      this.showError=true;
       console.log(error.error);
     } );   
   }
@@ -30,15 +33,18 @@ export class AppComponent {
       if (data.code==200) {
         this.employees=[];
         this.employees.push(data.data);
-      }     
+      } 
+      else this.showError=true;
     },
     error => {      
       console.log(error.error);
+      this.showError=true;
     } ); 
   }
 
   search(){
     console.log('busqueda '+this.id);
+    this.showError=false;
     if (this.id=='' || this.id==undefined)
       this.loadAll();    
     else 
